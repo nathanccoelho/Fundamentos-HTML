@@ -1,0 +1,35 @@
+/* Style of index*/
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+#menu a li{
+    display: inline;
+    padding: 15px;
+    font-size: 18px;
+} 
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+#menu a:hover{
+    color: grey;
+}
+.font{
+    font-size: 17px;
+    padding: 1%;
+    margin: 1%;
+    font-weight: bold;
+}
+.backall{
+    background-color:blanchedalmond;
+}
+.backp{
+    background-color:blanchedalmond;
+}
+
+
+
+/* Style of contato*/
