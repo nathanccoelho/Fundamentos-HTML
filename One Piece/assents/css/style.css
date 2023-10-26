@@ -42,6 +42,7 @@
 .subtitle{
 
     font-size: 30px;
+    font-weight: bold;
 }
 
 .fontp{
@@ -83,4 +84,17 @@
 .backocre{
     background-color: rgb(242, 196, 56);
 }
-/* Style of contato*/
+
+.backall{
+    background-color: rgb(255, 255, 255);
+}
+/* Style of lutas*/
+
+.containerl{
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    align-items: start;
+       
+    
+}
