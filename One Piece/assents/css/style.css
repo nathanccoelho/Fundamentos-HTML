@@ -1,0 +1,86 @@
+/* Style of index*/
+
+
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.font {
+    font-size:20px;
+    padding: 30px;
+}
+
+#menu a li{
+    display: inline;
+    padding: 15px;
+    font-size: 18px;
+} 
+
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover{
+    color: grey;
+}
+
+/* Style of personagens*/
+
+
+.menup{
+    display: inline;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.subtitle{
+
+    font-size: 30px;
+}
+
+.fontp{
+    font-size: 20px;
+    padding: 1%;
+}
+
+.backred{
+    background-color: rgb(204, 83, 83);
+}
+
+.backgreen{
+    background-color: rgb(115, 212, 115);
+}
+
+.backblue{
+    background-color: rgb(120, 177, 214);
+}
+
+.backorange{
+    background-color: rgb(212, 139, 71);
+}
+
+.backbrown{
+    background-color: rgb(137, 107, 73);
+}
+.backyellow{
+    background-color: rgb(248, 248, 110);
+}
+.backpurple{
+    background-color: rgb(146, 84, 146);
+}
+.backpink{
+    background-color: pink;
+}
+.backgrey{
+    background-color: rgb(138, 138, 138);
+}
+.backocre{
+    background-color: rgb(242, 196, 56);
+}
+/* Style of contato*/
