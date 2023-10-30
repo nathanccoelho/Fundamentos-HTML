@@ -18,18 +18,30 @@
     color: grey;
 }
 .font{
-    font-size: 17px;
+    font-size: 15px;
     padding: 1%;
     margin: 1%;
     font-weight: bold;
+    border: 10px groove rgba(255, 99, 71, 0.527);
 }
 .backall{
     background-color:blanchedalmond;
 }
 .backp{
-    background-color:blanchedalmond;
+    background-color:tomato;
 }
-
-
-
-/* Style of contato*/
+.pic{
+    border-radius: 25px;
+}
+.png{
+    width: 50;
+    height: 30px;
+    border-radius: 25px;
+}
+.back_footer{
+    background-color: grey;
+    border-radius: 25px;
+    padding: 1%;
+    margin: 3%;
+    border-style: groove;
+}

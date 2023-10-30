@@ -21,16 +21,33 @@
     <header>
         <h1>Entre em Contato</h1>
         <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome"><br>
+        <input type="text" id="nome" onkeyup="validarNome()"><br>
+        <div id="txtNome"></div>
 
         <label for="email">Email:</label><br>
-        <input type="email" id="email"><br>
+        <input type="email" id="email" onkeyup="validarEmail()"><br>
+        <div id="txtEmail"></div>
 
         <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea> <br>
-        <button>Enviar</button>
+        <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validarAssunto()"></textarea> <br>
+        <div id="txtAssunto"></div>
+        <button onclick="enviar()">Enviar</button>
 
 
     </header>
+
+    <footer class="back_footer">
+        <div class="container">
+            <a href="https://www.linkedin.com/in/nathan-ccoelho/" target="_blank">
+                <img class="png" src="assents/img/linkedin.png" alt="linkedin">
+            </a>
+            <a href="https://github.com/nathanccoelho" target="_blank">
+                <img class="png" src="assets/img/github.png" alt="GitHub">
+            </a>
+        </div>
+
+        <p class="container">Desenvolvido por Nathan Coelho - 2023 &copy;</p>
+    </footer>
+<script src="assents/js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,113 @@
+.logo{
+background-color:rgb(202, 173, 130);
+margin: 3%;
+border-style: groove;
+border-radius: 25px;
+}
+.icone{
+width: 150px;
+height: 130px;
+
+}
+.titulo{
+font-weight: bold;
+font-size: 40px;
+font-style:initial;
+}
+.menu li{
+    display: inline;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.backall{
+    background-color:rgb(85, 143, 218);
+}
+.texto_sobre{
+    background-color:rgb(202, 173, 130);
+    margin: 3%;
+    border-style: groove;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 1%;
+}
+.titulo_sobre{
+    margin: 4%
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center
+}
+.container_titutlo{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+.foto{
+    width: 180px;
+    height: 150px;
+    margin: 3%;
+    border-radius: 25px;
+
+}
+.png{
+    width: 50;
+    height: 30px;
+    border-radius: 25px;
+}
+.video{
+    margin: 2%;
+}
+.back_footer{
+    background-color: grey;
+    border-radius: 25px;
+    padding: 1%;
+    margin: 3%;
+    border-style: groove;
+}
+#formulario_mensagem{
+margin: 50px;
+width: 60%;
+}
+#formulario_buscacep{
+margin: 50px;
+width: 40%;
+}
+.campos-form{
+    flex-direction: column;
+    display: flex;
+}
+input, textarea{
+padding: 15px;
+border-radius: 25px;
+border-style: groove;
+margin: 1%;
+background-color: rgb(255, 245, 245);
+}
+.button{
+    padding: 10px;
+    border-radius: 25px;
+    border-style: groove;
+    width: 99%;
+    background-color:rgb(202, 173, 130);
+}
+label{
+    margin-left: 25px;
+}
+.text_center{
+    text-align: center;
+}
+.container_contato{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: start;
+}
