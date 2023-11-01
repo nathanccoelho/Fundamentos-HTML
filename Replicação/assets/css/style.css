@@ -19,11 +19,14 @@ font-style:initial;
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
+    align-items: right;
    
 }
 .menu a{
     text-decoration: none;
     color: black;
+   
+  
 }
 
 .backall{
@@ -44,7 +47,7 @@ font-style:initial;
     display: flex;
     flex-flow: row;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 .container_titutlo{
     display: flex;
@@ -87,7 +90,7 @@ width: 40%;
 }
 input, textarea{
 padding: 15px;
-border-radius: 25px;
+border-radius: 10px;
 border-style: groove;
 margin: 1%;
 background-color: rgb(255, 245, 245);
@@ -97,7 +100,7 @@ background-color: rgb(255, 245, 245);
     border-radius: 25px;
     border-style: groove;
     width: 99%;
-    background-color:rgb(202, 173, 130);
+    background-color:   rgb(202, 173, 130);
 }
 label{
     margin-left: 25px;
@@ -110,4 +113,10 @@ label{
     flex-flow: row;
     justify-content: center;
     align-items: start;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
